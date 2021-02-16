@@ -1,0 +1,34 @@
+body.background{
+    background-color: coral;
+}
+h1.centrado{
+    text-align: center; 
+}
+p.bitcoin{
+    text-align: right;
+    position:relative;
+    right: 20px;
+    color: blue;
+}
+p.etherum{
+    position: relative;
+    left: 65%;
+    color: blue;
+}
+div.white{
+    background-color: white;
+}
+p.litecoin{
+    color: blue;
+    position: relative;
+    left: 20%;
+}
+p.centrado{
+    text-align: center;
+}
+footer.amarillo{
+    background-color: yellow;
+}
+span.rojo{
+    color: red;
+}
