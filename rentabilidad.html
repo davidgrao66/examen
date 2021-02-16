@@ -6,12 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function funcion_nom() {
+            var monedas = document.getElementById("bitcoin").value;
+            document.getElementById("monedas").value = monedas;
+        }
+    </script>
 </head>
 <body class="background">
     <header>
         <h1 class="centrado"><a href="index.html">Criptomonedas</a></h1>
     </header> 
     <hr>
-    
+    <p>
+        Bitcoin <input type="text" id="bitcoin">. Valor <span id="valor">39.262</span>
+    </p>
+    <p>
+        Cantidad monedas <input class="rojo" type="text" id="monedas" onfocus="funcion_nom">
+        Valor <input type="text">
+    </p>
+
+
+    <footer class="amarillo">
+        <p class="centrado">Web desarollada por <span class="rojo">David de Andrés</span></p>
+    </footer>
 </body>
 </html>
